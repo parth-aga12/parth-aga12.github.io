@@ -34,7 +34,7 @@ photosBtn.addEventListener("click", function() {
 
 resumeBtn.addEventListener("click", function() {
     console.log("click")
-    window.open("https://parth-aga12.github.io/Parth Agarwal Resume.pdf");
+    window.open("https://parth-aga12.github.io/Parth_Agarwal_Resume.pdf");
 });
 
 githubBtn.addEventListener("click", function() {
