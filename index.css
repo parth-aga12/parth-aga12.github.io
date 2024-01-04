@@ -7,7 +7,7 @@ body {
     align-content:center;
     color: white;
     /* background-color: green; */
-    background-image: linear-gradient(to right, rgb(139, 202, 223),rgb(54, 214, 206));
+    background-image: linear-gradient(to right, rgb(120, 221, 255),rgb(88, 201, 253));
     /* background-image: url(spacebg.jpg);
     background-size: auto;
     background-attachment:fixed;
@@ -31,12 +31,12 @@ header {
     font-size: 16px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
     font-family: 'Helvetica', sans-serif;
-    background-color: rgb(87, 195, 189);
+    background-color: rgb(140, 211, 255);
     color: white;
   }
 
   .header-btn:hover{
-    background-color: lightseagreen;
+    background-color: rgb(100, 193, 250);
   }
 
 /* .container
