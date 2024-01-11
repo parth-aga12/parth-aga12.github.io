@@ -241,9 +241,17 @@ p1 {
     /* border: 1px solid yellow; */
     height: 90%;
 }
+.media-scroller-2 {
+    padding: 1rem;
+    padding-top: 0;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid yellow; */
+    height: 90%;
+}
 .images-container {
     display: flex;
-    gap: 40px;
+    gap: 4em;
     overflow-x: auto;
     /* scroll-snap-type: x mandatory; */
     height: 90%;
@@ -251,12 +259,12 @@ p1 {
     /* padding-bottom: 25px; */
     
 }
+
 .img-fig {
-    max-height: 90%;
+    max-height: 60%;
     height:100%;
     max-width: 125%;
     margin:auto;
-
 }
 .images-container img, .images-container video {
     /* scroll-snap-align: center; */
@@ -298,7 +306,7 @@ p1 {
     background: white;
     align-items: center;
     justify-content: center;
-    color: lightseagreen;
+    color: rgb(140, 211, 255);
     /* border: 1px solid yellow; */
 }
 
@@ -326,7 +334,7 @@ form input, form textarea {
 
 #submit-btn {
     margin: 2% 0;
-    background-color: lightseagreen;
+    background-color: rgb(140, 211, 255);
     font-size: 2.3vw;
     font-weight: bold;
     border-radius: 8px;
@@ -340,7 +348,7 @@ form input, form textarea {
 }   
 
 #submit-btn:hover {
-    background-color: rgb(21, 148, 141);
+    background-color: rgb(100, 193, 250);
 }
 .contact-cont-right {
     /* display: flex; */
@@ -379,7 +387,7 @@ form input, form textarea {
     /* text-align: center; */
     cursor: pointer; /* Mouse pointer on hover */
     font-family:  'PT Sans', sans-serif;
-    color: lightseagreen;
+    color: rgb(140, 211, 255);
     overflow: hidden;
     display:inline-flex; 
     align-items: center;
@@ -387,5 +395,5 @@ form input, form textarea {
   }
 
 .docs-btn:hover {
-    background-color:lightblue;
+    background-color:rgb(100, 193, 250);
 }
